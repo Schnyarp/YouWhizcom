@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>youwhiz.com — Premium Domain For Sale</title>
+  <meta name="description" content="youwhiz.com — premium domain for micro-consulting, tip & advice platforms, expert marketplaces, recommendation engines and knowledge apps. Submit an offer to purchase." />
+  <meta property="og:title" content="youwhiz.com — Premium Domain For Sale" />
+  <meta property="og:description" content="youwhiz.com — premium domain ideal for expertise platforms, quick advice apps, curated recommendations and influencer tips. Contact domain@youwhiz.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#4B2B9A" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:1120px;
+      --bg-top:#0f1226;
+      --bg-bottom:#27183f;
+      --glass: rgba(255,255,255,0.04);
+      --muted:#9aa6b0;
+      --ink-dark:#0b1014;
+      --accent-1:#6cf0c5; /* mint */
+      --accent-2:#ffd36b; /* warm */
+      --accent-3:#8ea2ff; /* soft blue */
+      --panel:#ffffff;
+      --card:#0e1626;
+      --radius:16px;
+      --shadow: 0 28px 90px rgba(2,6,12,0.6);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color-scheme: dark;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:40px 20px;
+      background:
+        radial-gradient(800px 320px at 16% 12%, rgba(142,162,255,0.06), transparent 12%),
+        linear-gradient(180deg,var(--bg-top) 0%, var(--bg-bottom) 100%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      overflow-x:hidden;
+      line-height:1.45;
+      color:var(--panel);
+    }
+
+    /* New fresh look: "Idea Lab" */
+    .bg {
+      position:fixed;
+      inset:0;
+      z-index:0;
+      pointer-events:none;
+      overflow:visible;
+    }
+
+    .nebula {
+      position:fixed;
+      left:50%;
+      top:12%;
+      width:1100px;
+      height:420px;
+      transform:translateX(-50%);
+      background:
+        radial-gradient(420px 160px at 18% 12%, rgba(108,186,255,0.06), transparent 10%),
+        radial-gradient(420px 200px at 82% 28%, rgba(108,240,197,0.03), transparent 12%);
+      mix-blend-mode:screen;
+      opacity:0.95;
+      filter: blur(10px);
+    }
+
+    .constellation {
+      position:fixed;
+      right:6%;
+      top:8%;
+      width:380px;
+      height:320px;
+      z-index:0;
+      background-image:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 320'><g stroke='%23ffffff' stroke-opacity='0.06' stroke-width='1.6' fill='none'><path d='M10 280 C70 220 120 240 180 180 C240 120 300 150 360 90' stroke-linecap='round' stroke-linejoin='round'/></g><g fill='%23ffffff' fill-opacity='0.06'><circle cx='12' cy='282' r='5'/><circle cx='182' cy='182' r='5'/><circle cx='362' cy='92' r='5'/></g></svg>");
+      background-repeat:no-repeat;
+      background-size:contain;
+      opacity:0.08;
+      mix-blend-mode:screen;
+      pointer-events:none;
+    }
+
+    .sparkles {
+      position:fixed;
+      left:6%;
+      bottom:8%;
+      width:420px;
+      height:240px;
+      z-index:0;
+      pointer-events:none;
+      opacity:0.06;
+      background-image:
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 240'><g fill='%23ffffff' fill-opacity='0.06'><circle cx='40' cy='40' r='2'/><circle cx='120' cy='80' r='2'/><circle cx='300' cy='120' r='2'/></g></svg>");
+      background-repeat:repeat;
+      background-size:120px 80px;
+      mix-blend-mode:screen;
+    }
+
+    .floaters {
+      position:fixed;
+      inset:0;
+      z-index:0;
+      pointer-events:none;
+      overflow:visible;
+    }
+
+    .whiz-icon {
+      position:absolute;
+      width:64px;
+      height:64px;
+      background-size:contain;
+      background-repeat:no-repeat;
+      opacity:0.12;
+      will-change:transform,opacity;
+      filter: drop-shadow(0 12px 28px rgba(0,0,0,0.6));
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0) rotate(-6deg); opacity:0.12; }
+      50% { transform: translateY(-18px) rotate(6deg); opacity:0.22; }
+      100% { transform: translateY(0) rotate(-6deg); opacity:0.12; }
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:36px;
+      border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      backdrop-filter: blur(6px) saturate(1.02);
+      border: 1px solid rgba(255,255,255,0.04);
+      box-shadow: var(--shadow);
+      position:relative;
+      z-index:2;
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:18px;
+    }
+
+    .brand{ display:flex; gap:12px; align-items:center; }
+    .logo {
+      width:86px;
+      height:86px;
+      border-radius:14px;
+      background: linear-gradient(135deg,var(--accent-1), var(--accent-3));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#072827;
+      font-weight:900;
+      font-size:20px;
+      box-shadow: 0 14px 46px rgba(92,160,255,0.06);
+      flex-shrink:0;
+    }
+
+    h1{ margin:0; font-size:28px; color:var(--panel); }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; max-width:760px; }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:26px;
+      align-items:start;
+      margin-top:8px;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      padding:18px;
+      border-radius:12px;
+      color:var(--panel);
+      margin-bottom:16px;
+      border:1px solid rgba(255,255,255,0.03);
+    }
+    .hero h2{ margin:0 0 8px 0; font-size:22px; color:var(--panel); }
+    .hero p{ margin:0; color:var(--muted); }
+
+    .panel {
+      background: #ffffff;
+      color:var(--ink-dark);
+      padding:22px;
+      border-radius:14px;
+      box-shadow: 0 10px 34px rgba(2,8,12,0.06);
+      border: 1px solid rgba(2,8,12,0.03);
+      max-width:820px;
+    }
+
+    h2.section { margin-top:0; font-size:20px; color:var(--ink-dark); }
+    .features ul{ margin:0; padding-left:18px; color:#6b7a7f; }
+    .features li{ margin-bottom:10px; }
+
+    .samples { display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
+    .sample {
+      width:180px;
+      height:110px;
+      border-radius:12px;
+      background: linear-gradient(180deg,#fff,#fbfbfb);
+      border:1px solid rgba(2,8,12,0.03);
+      box-shadow: 0 8px 22px rgba(2,8,12,0.04);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-weight:800;
+      color:#6b7a7f;
+      text-align:center;
+      padding:12px;
+    }
+
+    .cta-row{ display:flex; gap:12px; margin-top:18px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border-radius:999px;
+      font-weight:800;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+    }
+    .btn-primary{
+      background: linear-gradient(90deg,var(--accent-1), var(--accent-2));
+      color:#042827;
+      box-shadow: 0 10px 30px rgba(2,8,12,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(2,8,12,0.06);
+      color:var(--muted);
+    }
+
+    .price { margin-top:12px; font-weight:800; color:var(--ink-dark); font-size:16px; }
+    .muted-small { color:var(--muted); font-size:13px; margin-top:6px; }
+
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg,#ffffff,#fbfbfb);
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(2,8,12,0.03);
+      box-shadow: 0 8px 26px rgba(2,8,12,0.035);
+      max-width:360px;
+      color:var(--ink-dark);
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--ink-dark); }
+    .contact-email, .contact-email a{
+      white-space:nowrap;
+      display:inline-block;
+      font-weight:800;
+      color:var(--accent-1);
+      word-break: normal;
+      font-size:0.98rem;
+      text-decoration:none;
+    }
+
+    form label{ display:block; font-size:13px; color:#6b7a7f; margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(2,8,12,0.06);
+      background:#fff;
+      color:var(--ink-dark);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+
+    @media (max-width:980px){
+      .grid{ grid-template-columns: 1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:24px; }
+      .nebula, .constellation, .sparkles, .floaters { display:none; }
+      .logo{ width:72px; height:72px; border-radius:12px; }
+      h1{ font-size:22px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://youwhiz.com",
+        "name":"youwhiz.com",
+        "description":"youwhiz.com — premium domain for expert advice platforms, micro-consulting, tip & recommendation apps, and curated knowledge marketplaces."
+      },
+      {
+        "@type":"ContactPoint",
+        "contactType":"sales",
+        "email":"domain@youwhiz.com"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="nebula" aria-hidden="true"></div>
+    <div class="constellation" aria-hidden="true"></div>
+    <div class="sparkles" aria-hidden="true"></div>
+    <div class="floaters" id="floaters" aria-hidden="true"></div>
+  </div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">YW</div>
+        <div>
+          <h1 id="main-heading">youwhiz.com</h1>
+          <p class="lead">Premium domain for quick expertise: micro-consulting, curated tips, recommendation engines and knowledge marketplaces.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@youwhiz.com">domain@youwhiz.com</a></div>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <article class="hero" aria-labelledby="hero-title">
+          <div>
+            <h2 id="hero-title">Short, memorable and action-ready</h2>
+            <p>YouWhiz.com is built for founders and creators who deliver fast expert answers, curated recommendations, or personality-driven advice. It's brandable, versatile, and fits apps, newsletters and marketplaces.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+              <a class="btn btn-ghost" href="mailto:domain@youwhiz.com?subject=Domain%20Offer%20-%20youwhiz.com">Email Now</a>
+            </div>
+          </div>
+          <div style="min-width:220px; text-align:center">
+            <div style="color:var(--muted); font-size:13px">Domain</div>
+            <div style="font-weight:900; font-size:20px; margin-top:6px">youwhiz.com</div>
+            <div style="color:var(--muted); font-size:13px; margin-top:8px">Serious offers only. Escrow recommended.</div>
+          </div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="why-title">
+          <h2 class="section" id="why-title">Why youwhiz.com?</h2>
+          <p class="lead">A clean .com that implies expertise and personality — excellent for apps and platforms that surface short-form expert answers, curated recommendations, or pay-per-tip micro-consulting.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Instant brand clarity — users expect smart, fast guidance</li>
+              <li>Fits marketplaces for experts, recommendation engines, tip-based services and influencer-driven advice</li>
+              <li>Memorable and crisp across web, mobile, and social channels</li>
+            </ul>
+          </div>
+
+          <div class="samples" aria-hidden="false">
+            <div class="sample">Expert Q&A</div>
+            <div class="sample">Micro-Consulting</div>
+            <div class="sample">Curated Tips</div>
+            <div class="sample">Recommendation Engine</div>
+          </div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead">YouWhiz.com is available for transfer. Use escrow to ensure a secure and smooth transaction.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Great for consumer apps, subscription advice products, marketplaces and content-driven services</li>
+            <li>Useful for newsletters, influencer brands, and API-driven expert systems</li>
+            <li>Transfer-ready — escrow recommended to ensure a secure and verifiable transfer</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form opens your email client with the details prefilled. Or email <a href="mailto:domain@youwhiz.com" class="contact-email">domain@youwhiz.com</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" placeholder="Your company or organization" />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for youwhiz.com. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer a direct email? <a href="mailto:domain@youwhiz.com" style="color:var(--accent-1)" class="contact-email">domain@youwhiz.com</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 youwhiz.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // floating idea icons (lightbulb, rocket, star, check)
+    (function placeFloaters(){
+      const layer = document.getElementById('floaters');
+      if(!layer) return;
+
+      const svgs = {
+        bulb: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M32 8c10 0 18 8 18 18 0 7-4 12-8 16-2 2-2 6-2 6H24s0-4-2-6c-4-4-8-9-8-16 0-10 8-18 18-18z' fill='%23FFD36B'/><rect x='24' y='44' width='16' height='6' rx='2' fill='%23000000' opacity='0.06'/></svg>`),
+        rocket: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M12 46c8-8 20-20 34-34 4-4 10-2 10 4 0 4-4 14-10 20-12 12-24 26-34 28-2 0-4-6 0-18z' fill='%236EA8FF'/></svg>`),
+        star: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path d='M24 6l4.9 10.6L40 18l-8 6.6L32.8 40 24 33.6 15.2 40 16 24.6 8 18l11.1-1.3z' fill='%236CF0C5'/></svg>`),
+        check: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path d='M6 24l10 10L42 6' stroke='%23000000' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none' opacity='0.06'/></svg>`)
+      };
+
+      const items = [
+        {svg:svgs.bulb, left:'12%', top:'22%', size:64, dur:9000},
+        {svg:svgs.rocket, left:'78%', top:'18%', size:64, dur:11000},
+        {svg:svgs.star, left:'48%', top:'66%', size:56, dur:10000},
+        {svg:svgs.check, left:'84%', top:'54%', size:48, dur:12000}
+      ];
+
+      items.forEach(it=>{
+        const el = document.createElement('div');
+        el.className = 'whiz-icon';
+        el.style.left = it.left;
+        el.style.top = it.top;
+        el.style.width = it.size + 'px';
+        el.style.height = it.size + 'px';
+        el.style.backgroundImage = `url("data:image/svg+xml;utf8,${it.svg}")`;
+        el.style.animation = `floatUp ${it.dur}ms ease-in-out ${Math.random()*1200}ms infinite`;
+        el.style.opacity = 0.06 + Math.random()*0.14;
+        layer.appendChild(el);
+      });
+    })();
+
+    // Compose mailto and open user's email client
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - youwhiz.com');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company || '(not provided)'}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from youwhiz.com offer form`;
+
+      const body = encodeURIComponent(bodyText);
+      window.location.href = `mailto:domain@youwhiz.com?subject=${subject}&body=${body}`;
+    }
+
+    // Inquire: scroll to form on mobile, open mailto on desktop
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input')?.focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - youwhiz.com');
+        const body = encodeURIComponent('Hi — I would like to make an offer for youwhiz.com. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@youwhiz.com?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
